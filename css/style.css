@@ -1,0 +1,100 @@
+body {
+    margin: 0;
+    font-family: 'Didact Gothic', sans-serif;
+    font-size: 16px;
+    color: black;
+    background: #476136 url(../img/image1.jpg) no-repeat;
+    background-size: cover;
+    z-index: -100;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.align-items-center {
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.header_nav {
+    color: black;
+    font-weight: 700;
+    font-size: 14px;
+    margin-left: 23px;
+}
+
+.header_nav_2 {
+    color: #E0604E;
+    margin-left: auto;
+}
+
+.login_a {
+    margin-right: 17px;
+    color: black;
+    font-weight: 700;
+    font-size: 14px;
+
+}
+
+.sign_up_a {
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.container {
+    width: 500px;
+    height: 800px;
+    background-color: #fff;
+    margin: 20px 0;
+    border-radius: 5px;
+    padding: 70px 80px;
+}
+
+.caption {
+    padding-top: 200px;
+}
+
+h1, h5 {
+    font-family: 'Noto Serif SC', serif;
+    font-style: normal;
+    font-weight: 200;
+    font-size: 40px;
+    line-height: 48px;
+    margin: 0;
+}
+
+h5 {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+
+input {
+    border: 0;
+    border-bottom: 1px solid #E9E9E9;
+    background-color: rgba(0,0,0,0);
+    outline: 0;  
+    padding-top: 50px;
+    width: 350px;
+    color: #E9E9E9;
+    font-family: 'Noto Serif SC', serif;
+}
+
+p {
+line-height: 24px;
+}
+
+.border {
+    border-bottom: 1px solid #000000;
+    width: 80px;
+}
+
